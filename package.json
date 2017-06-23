@@ -1,0 +1,55 @@
+{
+  "name": "js-router",
+  "version": "1.0.0",
+  "description": "Javascript router to manipulate URL and load HTML pages for a single page application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GTMSportswear/js-router.git"
+  },
+  "keywords": [
+    "gtm",
+    "gtmsportswear"
+  ],
+  "author": "Chris Young",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GTMSportswear/js-router/issues"
+  },
+  "homepage": "https://github.com/GTMSportswear/js-router#readme",
+  "devDependencies": {
+    "@types/handlebars": "^4.0.33",
+    "@types/qunit": "^2.0.31",
+    "handlebars": "^4.0.10",
+    "jspm": "^0.16.53",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-qunit": "^1.2.1",
+    "karma-systemjs": "^0.16.0",
+    "qunitjs": "^2.3.3",
+    "systemjs": "^0.19.40",
+    "traceur": "0.0.111",
+    "tslint": "^5.4.3",
+    "typescript": "^2.3.4"
+  },
+  "jspm": {
+    "main": "src/js-router.ts",
+    "directories": {
+      "baseURL": "src",
+      "lib": "src",
+      "packages": "src"
+    },
+    "configFile": "system.conf.js",
+    "dependencies": {
+      "gtmsportswear/js-utilities": "github:gtmsportswear/js-utilities@1.0.0",
+      "gtmsportswear/js-view-engine": "github:gtmsportswear/js-view-engine@1.0.1"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.93",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.93"
+    }
+  }
+}

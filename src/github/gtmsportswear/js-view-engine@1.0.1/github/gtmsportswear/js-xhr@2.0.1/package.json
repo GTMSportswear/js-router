@@ -1,0 +1,30 @@
+{
+  "name": "js-xhr",
+  "version": "2.0.1",
+  "description": "XHR (Ajax) Wrapper for XMLHttpRequest. Supports promise-based returns, similar to fetch.",
+  "main": "dist/ajax.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gtmsportswear/js-xhr.git"
+  },
+  "keywords": [
+    "fetch",
+    "ajax",
+    "gtmsportswear",
+    "gtm",
+    "xhr"
+  ],
+  "author": "Nick George",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gtmsportswear/js-xhr/issues"
+  },
+  "homepage": "https://github.com/gtmsportswear/js-xhr#readme",
+  "devDependencies": {
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2"
+  }
+}
